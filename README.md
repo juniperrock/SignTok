@@ -13,7 +13,7 @@ docker pull ghcr.io/pablouser1/signtok:master
 
 Now you can create a container with:
 ```
-docker run --publish 8080:8080 ghcr.io/pablouser1/signtok:master
+docker run --publish 5000:5000 ghcr.io/pablouser1/signtok:master
 ```
 ### Manual
 ```
@@ -26,7 +26,7 @@ node api/index.js
 ```
 ## Usage
 ### Webserver
-You can send a POST request to http://localhost:8080/signature with a raw/plain body containing the url
+You can send a POST request to http://localhost:5000/signature with a raw/plain body containing the url
 
 (Content-Type: text/plain)
 

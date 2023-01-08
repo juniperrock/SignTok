@@ -6,8 +6,8 @@
         "api",
         "node"
     ],
-    "website": "https://github.com/pablouser1/SignTok",
-    "repository": "https://github.com/pablouser1/SignTok",
+    "website": "https://github.com/juniperrock/SignTok",
+    "repository": "https://github.com/juniperrock/SignTok",
     "buildpacks": [
         {
             "url": "heroku/nodejs"

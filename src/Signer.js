@@ -4,7 +4,7 @@ const { createCipheriv } = require("crypto");
 
 class Signer {
   static DEFAULT_USERAGENT =
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.35";
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36";
   static PASSWORD = "webapp1.0+202106";
   /**
    * @type Window
@@ -17,8 +17,8 @@ class Signer {
     const resourceLoader = new ResourceLoader({ userAgent });
 
     const { window } = new JSDOM("", {
-      url: "https://www.tiktok.com",
-      referrer: "https://www.tiktok.com",
+      url: "https://webcast.amemv.com",
+      referrer: "https://webcast.amemv.com",
       contentType: "text/html",
       includeNodeLocations: false,
       runScripts: "outside-only",

@@ -2,7 +2,7 @@
   "name": "signtok",
   "version": "1.3.0",
   "description": "Sign your TikTok requests easily",
-  "repository": "https://github.com/pablouser1/SignTok",
+  "repository": "https://github.com/juniperrock/SignTok",
   "author": "Pablo Ferreiro",
   "main": "src/Signer.js",
   "license": "MIT",
